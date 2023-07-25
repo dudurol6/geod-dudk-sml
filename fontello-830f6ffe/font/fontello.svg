@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="phone" unicode="&#xe800;" d="M0 615q0 50 28 76l138 138q45 37 77-13l113-211q18-39-14-71l-51-52q-5-6-5-14 25-98 132-195l31-30t36-34 34-26 41-25 40-14q20-6 27 2l61 60q39 30 72 12l203-121q22-14 25-37t-13-39l-141-139q-27-27-74-27-140 4-318 121-258 185-375 406-72 151-67 233z" horiz-adv-x="988" />
+
+<glyph glyph-name="mail" unicode="&#xe801;" d="M0-29l324 342 176-100 176 100 324-342-1000 0z m0 114l0 414 254-147z m0 503l0 141 1000 0 0-141-500-285z m746-236l254 147 0-414z" horiz-adv-x="1000" />
+
+<glyph glyph-name="location" unicode="&#xe802;" d="M0 473q0 156 110 267t267 110 267-110 110-267q0-123-53-193l-324-430-324 430q-53 70-53 193z m219 0q0-66 46-112t112-46 112 46 46 112-46 112-112 46-112-46-46-112z" horiz-adv-x="754" />
+
+<glyph glyph-name="map" unicode="&#xf279;" d="M286 850q7 0 12-5t6-13v-821q0-11-10-16l-268-143q-4-2-8-2-7 0-13 5t-5 13v821q0 11 10 16l267 143q4 2 9 2z m696 0q7 0 13-5t5-13v-821q0-11-9-16l-268-143q-4-2-9-2-7 0-12 5t-6 13v821q0 11 10 16l268 143q4 2 8 2z m-625 0q5 0 8-2l286-142q10-6 10-17v-821q0-7-6-13t-12-5q-5 0-8 2l-286 142q-10 6-10 17v821q0 7 6 13t12 5z" horiz-adv-x="1000" />
+
+<glyph glyph-name="facebook" unicode="&#xf30c;" d="M500 644l-142 0q-14 0-25-15t-11-37l0-102 178 0 0-148-178 0 0-442-170 0 0 442-152 0 0 148 152 0 0 86q0 94 59 159t147 65l142 0 0-156z" horiz-adv-x="500" />
+</font>
+</defs>
+</svg>
