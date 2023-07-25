@@ -1,24 +1,28 @@
+/*
+
+xs  <576px
+sm  576px - 767px
+md  768px - 991px
+lg  992px - 1199px
+xl  >1200px
+
+*/
+
 body{
     width: 100%;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    color: #27282c;
+}
+nav{
     font-family: 'Pathway Extreme', sans-serif;
 }
 ul{ list-style-type: none; }
 ul > li{ text-align: center; }
-@media screen and (max-width: 1200px){ /* md */
-    body{ font-size: 18px; }
-}
-@media screen and (max-width: 992px){ /* sm */
-    body{ font-size: 16px; }
-}
-@media screen and (max-width: 768px){ /* xs */
-    body{ font-size: 14px; }
-    .company-logo{
-        width: 150px!important;
-        height: 65px!important;
-    }
-}
+.row{ margin-left: 0px; margin-right: 0px; }
 .align-right{ text-align: right; }
 .company-logo{
     width: 200px;
@@ -52,13 +56,109 @@ a.header-nav-list-item:hover::after {
     margin: 0px;
 }
 .homepage-top{
-    height: auto;
     background: url("../img/hmpg.jpg");
-    background-position: center;
+}
+.homepage-offer{
+    background: url("../img/offer-bg.JPG");
+}
+.resizable-bg{
+    height: auto;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 15rem;
     padding-bottom: 15rem;
     padding-left:inherit;
     padding-right:inherit;
+}
+
+.homepage-top-company-description{
+    background-color: #27282c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+.homepage-top-title{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: right;
+}
+.homepage-top-title-sm{
+    color: #d9d9d9;
+    font-size: 3rem;
+}
+.top-intro-big{
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 40px;
+}
+.contact-content{
+    background-color: #27282c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+.centered-title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.centered-title-sep{
+    border-bottom: 1px solid #9b9b9b;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    width: 8%;
+}
+/*
+
+xs  <576px
+sm  576px - 767px
+md  768px - 991px
+lg  992px - 1199px
+xl  >1200px
+
+*/
+@media screen and (max-width: 1200px){ /* lg */
+    body{ font-size: 18px; }
+}
+@media screen and (max-width: 992px){ /* md */
+    body{ font-size: 16px; }
+    .resizable-bg{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    .homepage-top-title{
+        font-size: 3rem;
+    }
+    .homepage-top-title-sm{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 768px){ /* sm */
+    body{ font-size: 14px; }
+    .company-logo{
+        width: 150px!important;
+        height: 65px!important;
+    }
+}
+@media screen and (max-width: 576px){ /* xs */
+    .homepage-top-title{
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px 0px 20px 0px;
+        font-size: 2rem;
+    }
+    .homepage-top-title-sm{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 340px){ /* xs */
+    .vertical-nav{
+        flex-direction: column;
+        border-top: 1px solid #d5d7dd;
+    }
 }

@@ -12,26 +12,68 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Pathway+Extreme:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Pathway+Extreme:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="container-fluid" style="position: sticky; top: 0; background-color: #ffffff;">
         <div class="row align-items-center justify-content-center f-md">
             <div class="col-xs-12 col-sm-3" align="center"><img src="img/company-logo.png" class="company-logo"></div>
             <div class="col-xs-12 col-sm-9" align="center">
-                <ul class="vertical-nav">
-                    <li><a href="#" class="header-nav-list-item"><span style="color: #ff2b00;">Strona Główna</span></a></li>
-                    <li><a href="#" class="header-nav-list-item">Oferta</a></li>
-                    <li><a href="#" class="header-nav-list-item">O firmie</a></li>
-                    <li><a href="#" class="header-nav-list-item">Kontakt</a></li>
-                </ul>
+                <nav>
+                    <ul class="vertical-nav">
+                        <li><a href="#" class="header-nav-list-item"><span style="color: #ff2b00;">Strona Główna</span></a></li>
+                        <li><a href="#" class="header-nav-list-item">Oferta</a></li>
+                        <li><a href="#" class="header-nav-list-item">O firmie</a></li>
+                        <li><a href="#" class="header-nav-list-item">Kontakt</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
     <main>
-        <div class="homepage-top">
-            
-        </div>
+        <section class="introduction">
+            <div class="homepage-top resizable-bg container-fluid">
+                <div class="row justify-content-end" style="margin-right: 0px;">
+                    <div class="col-xs-11 col-sm-8 homepage-top-title">Biuro Usług Geodezyjnych <span class="homepage-top-title-sm"><br>Dudkowski</span></div>
+                    <div class="col-xs-0 col-sm-1"></div>
+                </div>
+            </div>
+            <div class="container-fluid homepage-top-company-description">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 top-intro">
+                        <span class="top-intro-big">Najwyższa jakość <span style="color: #f85736;">świadczonych usług!</span></span> <br><br>
+                        Biuro Usług Geodezyjnych Dudkowski jest rodzinną Firmą z wieloletnimi tradycjami, 
+                        której początki działalności sięgają 1992 roku. Dzięki połączeniu doświadczenia, wiedzy 
+                        i nowoczesnych technologii jesteśmy w stanie zapewnić Państwu usługi geodezyjne na najwyższym 
+                        poziomie połączone z fachowym doradztwem. <br><br> <span style="color: #d4d4d4; font-weight: 900;">Jakość, profesjonalizm oraz indywidualne podejście do 
+                        klienta są <u>podstawą Naszej działalności</u>.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offer">
+            <div class="homepage-offer resizable-bg container-fluid">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12" style="color: #ffffff;">
+                        OFERTA<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat, lacus ut vehicula ullamcorper, augue ligula lobortis odio, sit amet convallis diam sapien eget nunc. Curabitur dictum a arcu in tincidunt. Donec sed nunc eu lorem commodo euismod. Quisque lobortis sem urna, sit amet imperdiet eros ultricies ut. Quisque convallis mauris vitae ipsum imperdiet, dignissim tempor risus dignissim. Sed egestas lectus velit, ut pellentesque sem tincidunt a. Nullam vehicula vel nibh id malesuada. Praesent imperdiet semper dui, non placerat purus auctor in. In ullamcorper pharetra dolor, ac vehicula augue lobortis et.
+
+                        Etiam magna urna, egestas vitae tellus in, cursus tristique erat. Quisque venenatis ex vel luctus gravida. Suspendisse tincidunt felis leo, nec luctus nulla congue tristique. Ut ex diam, ornare sollicitudin ex ut, auctor venenatis nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi condimentum massa id accumsan rhoncus. Etiam congue orci luctus, mattis dolor a, pretium metus. Maecenas ullamcorper arcu ex, a tincidunt urna viverra quis. Vestibulum consectetur lorem lorem, vitae pellentesque massa congue vitae. Fusce vel ante elit.
+
+                        Donec dictum et tortor in ullamcorper. Aliquam erat volutpat. Donec cursus arcu sed egestas commodo. Phasellus vulputate varius libero, eu semper ipsum laoreet vitae. Maecenas sit amet hendrerit nibh, ut dapibus justo. Ut ut enim laoreet massa rutrum imperdiet. Quisque mi massa, tristique sed convallis sed, scelerisque id mauris. Fusce lobortis urna a tincidunt consectetur. Vivamus convallis tristique tortor ut auctor. Sed eget aliquam leo. Nulla facilisi. Aliquam venenatis urna eget tristique pretium. Aenean ac efficitur erat.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="contanct">
+            <div class="contact-content container-fluid">
+                <div class="row centered-title justify-content-center">Skontakuj się z nami!</div>
+                <div class="centered-title-sep"></div>
+            </div>
+        </section>
+        
     </main>
     <footer>
 
