@@ -34,6 +34,23 @@ ul{ list-style-type: none; }
 ul > li{ text-align: center; }
 .row{ margin-left: 0px; margin-right: 0px; }
 .align-right{ text-align: right; }
+.goUpButtonShow{ opacity: 1!important; }
+#goUp{
+    display: flex;
+    justify-content: center;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	z-index: 100;
+	opacity: 0;
+	background-color: #5999e3;
+  	border: 1px solid #4992e6;
+  	border-radius: 50%;
+  	cursor: pointer;
+  	font-size: 36px;
+  	line-height: 48px;
+  	width: 50px;
+}
 .company-logo{
     width: 200px;
     height: 86.67px;
@@ -70,6 +87,7 @@ a.header-nav-list-item:hover::after {
 }
 .homepage-offer{
     background: url("../img/offer-bg.JPG");
+    height: 100%;
 }
 .resizable-bg{
     height: auto;
@@ -118,13 +136,40 @@ a.header-nav-list-item:hover::after {
     letter-spacing: 2px;
     font-weight: 700;
 }
+.centered-title-sm{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 1rem;
+}
 .centered-title-sep{
     border-bottom: 1px solid #9b9b9b;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
+    margin-bottom: 10px;
     width: 8%;
+}
+.offer-elem{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #27282c;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.offer-elem-client-type{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.client-collapse{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.know-more-btn{
+    margin-bottom: 1rem;
 }
 .map{
     width: 100%;
@@ -138,14 +183,7 @@ a.header-nav-list-item:hover::after {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 1rem;
-    margin-left: -2rem;
-
-    width: 100%;
-}
-.single-contact-elem{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    /*width: 100%;*/
 }
 a.fb-link{
     color: #4989c4;
@@ -154,6 +192,21 @@ a.fb-link{
 a.fb-link:hover{
     color: #649ed4;
     transition: 100ms;
+}
+.form-item{
+    width: 90%;
+    border-radius: 10px;
+    margin: 0.3rem 0px 0.3rem 0px;
+    font-size: 1rem;
+    padding: 0.8rem;
+    font-style: italic;
+    background-color: #d4d4d4;
+}
+.contact-left-row{
+    margin-bottom: 0px;
+}
+#form-message{
+    min-height: 100px;
 }
 /*
 
@@ -177,6 +230,9 @@ xl  >1200px
     .homepage-top-title{ font-size: 3rem; }
     .homepage-top-title-sm{ font-size: 2.5rem; }
     .map{ height: 300px; }
+    .contact-elem-description{
+        font-size: 0.8rem;
+    }
 }
 @media screen and (max-width: 768px){ /* sm */
     body{ font-size: 14px; }
@@ -195,10 +251,16 @@ xl  >1200px
     .homepage-top-title-sm{
         font-size: 1.5rem;
     }
+    .contact-left-row{
+        margin-bottom: 1rem;
+    }
 }
-@media screen and (max-width: 340px){ /* xs */
+@media screen and (max-width: 340px){ /* xxs */
     .vertical-nav{
         flex-direction: column;
         border-top: 1px solid #d5d7dd;
+    }
+    .top-intro-big{
+        font-size: 30px;
     }
 }
