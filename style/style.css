@@ -75,6 +75,14 @@ a.header-nav-list-item::after {
 a.header-nav-list-item:hover::after {
     width: 100%;
 }
+a.quick-contact-elem{
+    text-decoration: none;
+}
+.quick-contact-elem{
+    color: #cf9714;
+    font-size: 2rem;
+    font-weight: 700;
+}
 .vertical-nav{
     display: flex;
     flex-direction: row;
