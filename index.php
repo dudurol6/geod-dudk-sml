@@ -6,13 +6,15 @@
 
 ?>
     <main>
-        <section class="introduction">
+        <section class="intro-img">
             <div class="homepage-top resizable-bg container-fluid">
                 <div class="row justify-content-end" style="margin-right: 0px;">
-                    <div class="col-xs-11 col-sm-8 homepage-top-title">Biuro Usług Geodezyjnych <span class="homepage-top-title-sm"><br>Dudkowski</span></div>
-                    <div class="col-xs-0 col-sm-1"></div>
+                    <div class="col-12 col-sm-8 top-title">Biuro Usług Geodezyjnych <span class="homepage-top-title-sm"><br>Dudkowski</span></div>
+                    <div class="col-0 col-sm-1"></div>
                 </div>
             </div>
+        </section>
+        <section class="introduction">
             <div class="container-fluid homepage-top-company-description">
                 <div class="row justify-content-center">
                     <div class="col-md-8 top-intro">
@@ -89,7 +91,7 @@
                         </div>
                         <div class="col-10 col-sm-4 col-xl-3 offer-elem">
                             <img src="img/client-pic.png" width="100%">
-                            <div class="offer-elem-client-type">Plebs</div>
+                            <div class="offer-elem-client-type">Opinie biegłego sądowego</div>
                             <div class="centered-title-sep"></div>  
 
 

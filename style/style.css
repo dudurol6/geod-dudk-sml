@@ -93,6 +93,12 @@ a.quick-contact-elem{
 .homepage-top{
     background: url("../img/hmpg.jpg");
 }
+.contact-top{
+    background: url('../img/contact-3.JPG');
+}
+.about-top{
+    background: url('../img/contact-11.JPG');
+}
 .homepage-offer{
     background: url("../img/offer-bg.JPG");
     height: 100%;
@@ -107,6 +113,10 @@ a.quick-contact-elem{
     padding-left:inherit;
     padding-right:inherit;
 }
+.resizable-bg-sm{
+    padding-top: 10rem!important;
+    padding-bottom: 10rem!important;
+}
 
 .homepage-top-company-description{
     background-color: #27282c;
@@ -114,13 +124,17 @@ a.quick-contact-elem{
     text-align: center;
     padding: 10px 0px 20px 0px;
 }
-.homepage-top-title{
+.top-title{
     color: #ffffff;
     text-transform: uppercase;
     font-size: 4rem;
     line-height: 1.2;
     font-weight: 700;
     text-align: right;
+    text-shadow: 2px 2px #000000;
+}
+.top-title-left{
+    text-align: left!important;
 }
 .homepage-top-title-sm{
     color: #d9d9d9;
@@ -216,6 +230,23 @@ a.fb-link:hover{
 #form-message{
     min-height: 100px;
 }
+.owner-info{
+    margin: 1rem 0px 1rem 0px;
+    font-style: italic;
+    font-size: 1rem;
+}
+.history-description{
+    line-height: 2;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(89, 88, 94, 0.2);
+    text-align: justify;
+}
+.comapny-description{
+    background-color: #27282c;
+    color: #ffffff;
+}
 /*
 
 xs  <576px
@@ -235,10 +266,13 @@ xl  >1200px
         padding-top: 10rem;
         padding-bottom: 10rem;
     }
-    .homepage-top-title{ font-size: 3rem; }
+    .top-title{ font-size: 3rem; }
     .homepage-top-title-sm{ font-size: 2.5rem; }
     .map{ height: 300px; }
     .contact-elem-description{
+        font-size: 0.8rem;
+    }
+    .history-description{
         font-size: 0.8rem;
     }
 }
@@ -250,12 +284,13 @@ xl  >1200px
     }
 }
 @media screen and (max-width: 576px){ /* xs */
-    .homepage-top-title{
+    .top-title{
         text-align: center;
         background-color: rgba(255, 255, 255, 0.3);
         padding: 10px 0px 20px 0px;
         font-size: 2rem;
     }
+    .top-title-left{ text-align: center!important; }
     .homepage-top-title-sm{
         font-size: 1.5rem;
     }

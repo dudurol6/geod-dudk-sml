@@ -42,12 +42,7 @@
         document.addEventListener('scroll', handleScroll);
         goUpButton.addEventListener('click', scrollToTop);
     </script>
-    <script>
-        function highlightNavbar(){
-            console.log('arbynbiskup');
-            document.getElementById('<?php echo $pgt; ?>').style.color = '#ff2b00';
-        }
-    </script>
+    <script> function highlightNavbar(){ document.getElementById('<?php echo $pgt; ?>').style.color = '#ff2b00'; } </script>
 
     <header class="container-fluid" style="position: sticky; top: 0; background-color: #ffffff;">
         <div class="row align-items-center justify-content-center f-md">
@@ -55,18 +50,11 @@
             <div class="col-xs-12 col-sm-9" align="center">
                 <nav>
                     <ul class="vertical-nav">
-                        <?php
-                            echo `
-                                <script type="text/javascript">highlightNavbar();</script>
-                            `;
-
-                            # TRY TO MAKE IT WORK :))
-
-                        ?>
                         <li><a href="index.php" class="header-nav-list-item"><span id="mainPage">Strona Główna</span></a></li>
-                        <li><a href="contact.php" class="header-nav-list-item"><span id="offerPage">Oferta</span></a></li>
-                        <li><a href="#" class="header-nav-list-item"><span id="aboutPage">O firmie</span></a></li>
-                        <li><a href="#" class="header-nav-list-item"><span id="contactPage">Kontakt</span></a></li>
+                        <li><a href="#" class="header-nav-list-item"><span id="offerPage">Oferta</span></a></li>
+                        <li><a href="about.php" class="header-nav-list-item"><span id="aboutPage">O firmie</span></a></li>
+                        <li><a href="contact.php" class="header-nav-list-item"><span id="contactPage">Kontakt</span></a></li>
+                        <?php echo '<script type="text/javascript">highlightNavbar();</script>'; ?>
                     </ul>
                 </nav>
             </div>

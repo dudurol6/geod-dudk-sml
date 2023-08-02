@@ -6,6 +6,14 @@
 
 ?>
     <main>
+        <section class="intro-img">
+            <div class="contact-top resizable-bg resizable-bg-sm container-fluid">
+                <div class="row justify-content-end" style="margin-right: 0px;">
+                    <div class="col-12 col-sm-10 col-lg-9 top-title top-title-left">Kontakt</div>
+                    <div class="col-0 col-sm-1"></div>
+                </div>
+            </div>
+        </section>
         <section class="contanct">
             <div class="contact-content container-fluid">
                 <div class="row centered-title justify-content-center">Skontakuj się z nami!</div>
@@ -51,7 +59,9 @@
                                 <br><button type="submit" name="submit" class="btn btn-secondary">Wyślij!</button>
                             </form>
                         </div>
-                    </div>
+                    </div><br>
+                    <div class="centered-title-sep"></div>
+                    <div class="owner-info">Geod. Upr. Mariusz Dudkowski (nr uprawnień zawodowych 20126)</div>
                 </div>
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1340.3478891500959!2d22.281633834729707!3d51.17538655543746!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722f467ece4bc8b%3A0x2bafc7119d11e6bd!2sUs%C5%82ugi%20Geodezyjne%20-%20Dudkowski!5e1!3m2!1sen!2spl!4v1690316421011!5m2!1sen!2spl" class="map" style="border:0;margin-top:1rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
